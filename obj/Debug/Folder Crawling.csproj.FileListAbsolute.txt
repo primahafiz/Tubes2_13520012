@@ -1,0 +1,14 @@
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\obj\Debug\Folder Crawling.csproj.AssemblyReference.cache
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\obj\Debug\Folder_Crawling.Properties.Resources.resources
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\obj\Debug\Folder Crawling.csproj.GenerateResource.cache
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\obj\Debug\Folder Crawling.csproj.CoreCompileInputs.cache
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\bin\Debug\Folder Crawling.exe.config
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\bin\Debug\Folder Crawling.exe
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\bin\Debug\Folder Crawling.pdb
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\bin\Debug\AutomaticGraphLayout.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\bin\Debug\AutomaticGraphLayout.Drawing.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\bin\Debug\Microsoft.Msagl.GraphViewerGdi.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\bin\Debug\Microsoft.Msagl.WpfGraphControl.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\obj\Debug\Folder Crawling.csproj.CopyComplete
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\obj\Debug\Folder Crawling.exe
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\Folder Crawling\Folder Crawling\obj\Debug\Folder Crawling.pdb
