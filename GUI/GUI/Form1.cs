@@ -52,6 +52,7 @@ namespace GUI
 			Boolean occurences = checkBox1.Checked;
 			Boolean isChecked = radioButton1.Checked;
 			String picture = Directory.GetCurrentDirectory();
+			string[] ans;
 
 			while (Path.GetFileName(picture) != "tubes2-stima")
             {
@@ -65,13 +66,42 @@ namespace GUI
 			else
 				method = radioButton2.Text;
 
+			//BFS mainBFS = new BFS();
+			//ans = mainBFS.BFSMain(path, file, occurences);
+			//BFS.printArr(ans);
+
+			while (true)
+            {
+				pictureBox1.ImageLocation = picture + "gempa.jpg";
+				Application.DoEvents();
+				Task.Delay(1000).Wait();
+				Application.DoEvents();
+
+
+				pictureBox1.ImageLocation = picture + "kocheng.jpg";
+				Application.DoEvents();
+				Task.Delay(1000).Wait();
+				Application.DoEvents();
+
+			}
+
 			MessageBox.Show(path + "\n" + file + "\n" + occurences + "\n" + method + "\n" + picture);
-			pictureBox1.Image = Image.FromFile(picture + file);
+
+
+
+
+
+
 		}
 
 		private void label3_Click(object sender, EventArgs e)
 		{
 
 		}
-	}
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

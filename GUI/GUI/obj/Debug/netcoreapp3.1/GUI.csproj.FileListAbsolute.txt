@@ -18,3 +18,6 @@ C:\Users\Aji\Documents\GitHub\tubes2-stima\GUI\GUI\obj\Debug\netcoreapp3.1\GUI.d
 C:\Users\Aji\Documents\GitHub\tubes2-stima\GUI\GUI\obj\Debug\netcoreapp3.1\GUI.pdb
 C:\Users\Aji\Documents\GitHub\tubes2-stima\GUI\GUI\obj\Debug\netcoreapp3.1\GUI.genruntimeconfig.cache
 C:\Users\Aji\Documents\GitHub\tubes2-stima\GUI\GUI\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\GUI\GUI\bin\Debug\netcoreapp3.1\Microsoft.Msagl.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\GUI\GUI\bin\Debug\netcoreapp3.1\Microsoft.Msagl.Drawing.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\GUI\GUI\bin\Debug\netcoreapp3.1\Microsoft.Msagl.GraphViewerGdi.dll

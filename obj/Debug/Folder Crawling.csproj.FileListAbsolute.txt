@@ -34,3 +34,13 @@ C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\FolderCrawling\bin\Debug\
 C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\FolderCrawling\obj\Debug\Folder Crawling.csproj.CopyComplete
 C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\FolderCrawling\obj\Debug\Folder Crawling.exe
 C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\FolderCrawling\obj\Debug\Folder Crawling.pdb
+C:\Users\Aji\Documents\GitHub\tubes2-stima\bin\Debug\Folder Crawling.exe.config
+C:\Users\Aji\Documents\GitHub\tubes2-stima\bin\Debug\Folder Crawling.exe
+C:\Users\Aji\Documents\GitHub\tubes2-stima\bin\Debug\Folder Crawling.pdb
+C:\Users\Aji\Documents\GitHub\tubes2-stima\obj\Debug\Folder Crawling.csproj.AssemblyReference.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\obj\Debug\Folder_Crawling.Properties.Resources.resources
+C:\Users\Aji\Documents\GitHub\tubes2-stima\obj\Debug\Folder Crawling.csproj.GenerateResource.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\obj\Debug\Folder Crawling.csproj.CoreCompileInputs.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\obj\Debug\Folder Crawling.csproj.CopyComplete
+C:\Users\Aji\Documents\GitHub\tubes2-stima\obj\Debug\Folder Crawling.exe
+C:\Users\Aji\Documents\GitHub\tubes2-stima\obj\Debug\Folder Crawling.pdb

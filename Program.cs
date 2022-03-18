@@ -11,11 +11,11 @@ namespace Folder_Crawling
             string[] ans;
 
             BFS mainBFS = new BFS();
-            ans= mainBFS.BFSMain("C:\\Institut Teknologi Bandung\\Semester 4\\Kuliah\\Praktikum", "main.cpp", false);
+            ans= mainBFS.BFSMain("C:\\Users\\Aji\\Documents\\1st project", "index.cpk", false);
             BFS.printArr(ans);
 
             DFS mainDFS = new DFS();
-            ans = mainDFS.DFSMain("C:\\Institut Teknologi Bandung\\Semester 4\\Kuliah\\Praktikum", "main.cpp", false);
+            ans = mainDFS.DFSMain("C:\\Users\\Aji\\Documents\\1st project", "index.cpk", false);
             DFS.printArr(ans);
         }
     }
