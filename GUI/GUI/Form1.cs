@@ -51,15 +51,22 @@ namespace GUI
 			String method;
 			Boolean occurences = checkBox1.Checked;
 			Boolean isChecked = radioButton1.Checked;
-			String parent = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).FullName).FullName).FullName).FullName).FullName + @"\pictures\" ;
+			String picture = Directory.GetCurrentDirectory();
+
+			while (Path.GetFileName(picture) != "tubes2-stima")
+            {
+				picture = Directory.GetParent(picture).FullName;
+            }
+
+			picture = picture + @"\pictures\";
 
 			if (isChecked)
 				method = radioButton1.Text;
 			else
 				method = radioButton2.Text;
 
-			MessageBox.Show(path + "\n" + file + "\n" + occurences + "\n" + method + "\n" + parent);
-			pictureBox1.Image = Image.FromFile(parent + file);
+			MessageBox.Show(path + "\n" + file + "\n" + occurences + "\n" + method + "\n" + picture);
+			pictureBox1.Image = Image.FromFile(picture + file);
 		}
 
 		private void label3_Click(object sender, EventArgs e)
