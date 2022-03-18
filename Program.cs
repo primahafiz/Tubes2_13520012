@@ -8,9 +8,15 @@ namespace Folder_Crawling
     {
         public static void Main()
         {
+            string[] ans;
+
             BFS mainBFS = new BFS();
-            string[] ans= mainBFS.BFSMain("D:\\Prima\\ITB\\IF sem 4\\RPL", "notulen asistensi.docx", false);
+            ans= mainBFS.BFSMain("C:\\Institut Teknologi Bandung\\Semester 4\\Kuliah\\Praktikum", "main.cpp", false);
             BFS.printArr(ans);
+
+            DFS mainDFS = new DFS();
+            ans = mainDFS.DFSMain("C:\\Institut Teknologi Bandung\\Semester 4\\Kuliah\\Praktikum", "main.cpp", false);
+            DFS.printArr(ans);
         }
     }
 }
