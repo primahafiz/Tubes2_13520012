@@ -1,0 +1,19 @@
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\obj\Debug\CEK FORM 2.csproj.AssemblyReference.cache
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\obj\Debug\CEK_FORM_2.Properties.Resources.resources
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\obj\Debug\CEK FORM 2.csproj.GenerateResource.cache
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\obj\Debug\CEK FORM 2.csproj.CoreCompileInputs.cache
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\CEK FORM 2.exe.config
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\CEK FORM 2.exe
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\CEK FORM 2.pdb
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\AutomaticGraphLayout.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\AutomaticGraphLayout.Drawing.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\Microsoft.Msagl.GraphViewerGdi.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\Microsoft.Msagl.WpfGraphControl.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\Microsoft.WindowsAPICodePack.Sensors.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\obj\Debug\CEK FORM 2.csproj.CopyComplete
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\obj\Debug\CEK FORM 2.exe
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\CEK FORM 2\CEK FORM 2\obj\Debug\CEK FORM 2.pdb
