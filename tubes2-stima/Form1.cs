@@ -15,9 +15,11 @@ namespace GUI
 {
 	public partial class Form1 : Form
 	{
+		bool click = false;
 		public Form1()
 		{
 			InitializeComponent();
+			linkLabel1.LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkLabel1_Click);
 		}
 
 		private void button1_Click(object sender, EventArgs e)
@@ -77,17 +79,16 @@ namespace GUI
 				if (method != "BFS" && method != "DFS") {
 					MessageBox.Show("Fill the required form !!", "Error");
 				} else {
+					click = true;
 					if (method == "BFS") {
 						linkLabel1.Text = "";
 						BFS bfs = new BFS();
-						res = bfs.BFSMain(path, file, occurences);
+						res = bfs.BFSMain(path, file, occurences, pictureBox1);
 					} else {
 						linkLabel1.Text = "";
 						DFS dfs = new DFS();
-						res = dfs.DFSMain(path, file, occurences);
+						res = dfs.DFSMain(path, file, occurences, pictureBox1);
 					} 
-
-					pictureBox1.Image = res.Item2;
 					
 					int i = 1;
 					int count = 0;
@@ -100,31 +101,12 @@ namespace GUI
 						count += res.Item1[i-1].Length + 1;
 						i++;
 					}
+					label5.Text = "click to download";
 				}
 			}
-
-			linkLabel1.LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkLabel1_Click);
-
-			//BFS.printArr(ans);
-			/*
-			while (true)
-            {
-				pictureBox1.ImageLocation = picture + "gempa.jpg";
-				Application.DoEvents();
-				Task.Delay(1000).Wait();
-				Application.DoEvents();
-
-
-				pictureBox1.ImageLocation = picture + "kocheng.jpg";
-				Application.DoEvents();
-				Task.Delay(1000).Wait();
-				Application.DoEvents();
-
-			}
-			*/
 		}
 
-		private String toAccesableLink(String str)
+		public String toAccesableLink(String str)
 		{
 			String res = "";
 			int idx = 0;
@@ -150,7 +132,40 @@ namespace GUI
 
 		private void pictureBox1_Click(object sender, EventArgs e)
 		{
+			String picture = Directory.GetCurrentDirectory();
+			while (Path.GetFileName(picture) != "tubes2-stima")
+			{
+				picture = Directory.GetParent(picture).FullName;
+			}
 
+			picture = picture + @"\pictures\";
+			Bitmap bitmap = new Bitmap(picture + "graph.jpg");
+			if (click == false) {
+				MessageBox.Show("Fill the required form !!", "Error");
+			} else {
+				CommonOpenFileDialog dialog = new CommonOpenFileDialog();
+				dialog.IsFolderPicker = true;
+				if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+				{
+					File.WriteAllText("graph.jpg", "");
+					try
+					{
+						File.Delete(dialog.FileName + "\\graph.jpg");
+					}
+					catch
+					{
+				
+					}
+					try
+					{
+						bitmap.Save(dialog.FileName + "\\graph.jpg");
+					}
+					catch
+					{
+
+					}
+				}
+			}
 		}
 		private void linkLabel1_Click(object sender, System.Windows.Forms.LinkLabelLinkClickedEventArgs e)
 		{

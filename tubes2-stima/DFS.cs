@@ -18,7 +18,7 @@ namespace GUI
 
         static Bitmap bitmap;
 
-        public Tuple<string[], Bitmap> DFSMain(string dirPath, string searchFile, bool isAll)
+        public Tuple<string[], Bitmap> DFSMain(string dirPath, string searchFile, bool isAll, PictureBox pictureBox)
         {
             // list path of searchFile
             // ans = new List<string>();
@@ -29,8 +29,8 @@ namespace GUI
             ans = new List<string>();
             edge = new List<Tuple<string, string, int>>();
             flag = 1;
-
-            DFSRecursive(dirPath, searchFile, isAll);
+            
+            DFSRecursive(dirPath, searchFile, isAll, pictureBox);
 
             // mark edge with blue color if edge is a path to the searchFile
             foreach (string pathAns in ans)
@@ -47,21 +47,32 @@ namespace GUI
 
             // printList(edge);
             bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, true);
+            pictureBox.Image = bitmap;
             return Tuple.Create(ans.ToArray(), bitmap);
         }
 
-        public void DFSRecursive(string dirPath, string searchFile, bool isAll)
+        public void DFSRecursive(string dirPath, string searchFile, bool isAll, PictureBox pictureBox)
         {
             // get all directory inside
             string[] pathsDir = Directory.GetDirectories(dirPath);
             // get all file inside
             string[] pathsFile = Directory.GetFiles(dirPath);
 
+            foreach (string path in pathsDir)
+            {
+                if (flag == 1)
+                {
+                    edge.Add(Tuple.Create(dirPath, path, 1));
+                    DFSRecursive(path, searchFile, isAll, pictureBox);
+                    bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, false);
+                    pictureBox.Image = bitmap;
+                }
+            }
             foreach (string path in pathsFile)
             {
                 if (flag == 1)
                 {
-                    edge.Add(Tuple.Create(dirPath, path, 0));
+                    edge.Add(Tuple.Create(dirPath, path, 1));
                     if (isFile(path))
                     {
                         // check if file=searchFile
@@ -74,16 +85,9 @@ namespace GUI
                                 break;
                             }
                         }
-                    }
-                }
-            }
-
-            foreach (string path in pathsDir)
-            {
-                if (flag == 1)
-                {
-                    edge.Add(Tuple.Create(dirPath, path, 0));
-                    DFSRecursive(path, searchFile, isAll);
+                    } 
+                    bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, false);
+                    pictureBox.Image = bitmap;
                 }
             }
         }

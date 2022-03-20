@@ -19,7 +19,7 @@ namespace GUI
         static Bitmap bitmap;
         /*
          */
-        public Tuple<string[], Bitmap> BFSMain(string dirPath, string searchFile, bool isAll)
+        public Tuple<string[], Bitmap> BFSMain(string dirPath, string searchFile, bool isAll, PictureBox pictureBox)
         {
             // queue for BFS
             q = new Queue<string>();
@@ -60,11 +60,15 @@ namespace GUI
                     {
                         q.Enqueue(path);
                         edge.Add(Tuple.Create(head, path, 0));
+                        bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, false);
+                        pictureBox.Image = bitmap;
                     }
                     foreach (string path in pathsDir)
                     {
                         q.Enqueue(path);
                         edge.Add(Tuple.Create(head, path, 0));
+                        bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, false);
+                        pictureBox.Image = bitmap;
                     }
                 }
                 // mark edge that has been visited with red color
@@ -88,7 +92,7 @@ namespace GUI
             }
             printList(edge);
             bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, true);
-
+            pictureBox.Image = bitmap;
             return Tuple.Create(ans.ToArray(), bitmap);
         }
 
