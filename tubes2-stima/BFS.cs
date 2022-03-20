@@ -16,10 +16,10 @@ namespace GUI
         static List<string> ans;
         static List<Tuple<string, string, int>> edge;
         static System.Windows.Forms.Form retForm;
-        static
+        static Bitmap bitmap;
         /*
          */
-        public string[] BFSMain(string dirPath, string searchFile, bool isAll)
+        public Tuple<string[], Bitmap> BFSMain(string dirPath, string searchFile, bool isAll)
         {
             // queue for BFS
             q = new Queue<string>();
@@ -87,9 +87,9 @@ namespace GUI
                 }
             }
             printList(edge);
-            Folder_Crawling.SearchingGraph.buildGraph(edge);
+            bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, true);
 
-            return ans.ToArray();
+            return Tuple.Create(ans.ToArray(), bitmap);
         }
 
         public static bool isFile(string path)

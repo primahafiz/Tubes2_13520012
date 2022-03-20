@@ -13,7 +13,7 @@ namespace Folder_Crawling
 {
     class SearchingGraph
     {
-        public static void buildGraph(List<Tuple<string, string, int>> edges)
+        public static Bitmap buildGraph(List<Tuple<string, string, int>> edges, bool save)
         {
             Microsoft.Msagl.Drawing.Graph graph = new Microsoft.Msagl.Drawing.Graph("graph");
             //create the graph content
@@ -58,38 +58,46 @@ namespace Folder_Crawling
             }
             Microsoft.Msagl.GraphViewerGdi.GraphRenderer renderer = new Microsoft.Msagl.GraphViewerGdi.GraphRenderer(graph);
             renderer.CalculateLayout();
+
+            Bitmap bitmap;
+            if (save) {
+                bitmap = new Bitmap((int)graph.Width, (int)(graph.Height), PixelFormat.Format32bppPArgb);
+                renderer.Render(bitmap);
+
+                String picture = Directory.GetCurrentDirectory();
+
+                while (Path.GetFileName(picture) != "tubes2-stima")
+                {
+                    picture = Directory.GetParent(picture).FullName;
+                }
+
+                picture = picture + @"\pictures\";
+
+                File.WriteAllText("graph.jpg", "");
+                try
+                {
+                    File.Delete(picture + "graph.jpg");
+                }
+                catch
+                {
+            
+                }
+                try
+                {
+                    bitmap.Save(picture + "graph.jpg");
+                }
+                catch
+                {
+
+                }
+                Console.WriteLine(picture + "graph.jpg");
+            }
             int width = 500;
             int height = 500;
-            Bitmap bitmap = new Bitmap(width, (int)(graph.Height * (width / graph.Width)), PixelFormat.Format32bppPArgb);
+            bitmap = new Bitmap(width, (int)(graph.Height * (width / graph.Width)), PixelFormat.Format32bppPArgb);
             renderer.Render(bitmap);
 
-            String picture = Directory.GetCurrentDirectory();
-
-            while (Path.GetFileName(picture) != "tubes2-stima")
-            {
-                picture = Directory.GetParent(picture).FullName;
-            }
-
-            picture = picture + @"\pictures\";
-
-            File.WriteAllText("graph.jpg", "");
-            try
-            {
-                File.Delete(picture + "graph.jpg");
-            }
-            catch
-            {
-        
-            }
-            try
-            {
-                bitmap.Save(picture + "graph.jpg");
-            }
-            catch
-            {
-
-            }
-            Console.WriteLine(picture + "graph.jpg");
+            return bitmap;
         }
     }
 }

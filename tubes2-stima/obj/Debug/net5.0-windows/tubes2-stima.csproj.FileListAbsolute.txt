@@ -27,3 +27,32 @@ C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\ref
 C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.pdb
 C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.genruntimeconfig.cache
 C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll.config
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.exe
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll.config
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.deps.json
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.json
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.dev.json
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.pdb
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.Drawing.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.WpfGraphControl.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Sensors.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.AssemblyReference.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\GUI.Form1.resources
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.GenerateResource.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.GeneratedMSBuildEditorConfig.editorconfig
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfoInputs.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfo.cs
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CoreCompileInputs.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CopyComplete
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\refint\tubes2-stima.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.pdb
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.genruntimeconfig.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\ref\tubes2-stima.dll

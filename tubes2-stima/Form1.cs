@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace GUI
@@ -44,15 +45,16 @@ namespace GUI
 
 		}
 
-		private void button2_Click(object sender, EventArgs e)
+		private async void button2_Click(object sender, EventArgs e)
 		{
 			String path = textBox1.Text;
 			String file = textBox2.Text;
 			String method;
 			Boolean occurences = checkBox1.Checked;
-			Boolean isChecked = radioButton1.Checked;
+			Boolean isChecked1 = radioButton1.Checked;
+			Boolean isChecked2 = radioButton2.Checked;
 			String picture = Directory.GetCurrentDirectory();
-			string[] ans;
+			Tuple<string[], Bitmap> res;
 
 			while (Path.GetFileName(picture) != "tubes2-stima")
 			{
@@ -61,14 +63,48 @@ namespace GUI
 
 			picture = picture + @"\pictures\";
 
-			if (isChecked)
+			if (isChecked1)
 				method = radioButton1.Text;
-			else
+			else if (isChecked2)
 				method = radioButton2.Text;
+			else 
+				method = "";
 
-			ans = BFS.BFSMain(path, file, occurences);
+			linkLabel1.Links.Clear();
+			if (path == null || file == null) {
+				MessageBox.Show("Fill the required form !!", "Error");
+			} else {
+				if (method != "BFS" && method != "DFS") {
+					MessageBox.Show("Fill the required form !!", "Error");
+				} else {
+					if (method == "BFS") {
+						linkLabel1.Text = "";
+						BFS bfs = new BFS();
+						res = bfs.BFSMain(path, file, occurences);
+					} else {
+						linkLabel1.Text = "";
+						DFS dfs = new DFS();
+						res = dfs.DFSMain(path, file, occurences);
+					} 
 
-			pictureBox1.ImageLocation = picture + "graph.jpg";
+					pictureBox1.Image = res.Item2;
+					
+					int i = 1;
+					int count = 0;
+					int start;
+					foreach (String str in res.Item1) {
+						linkLabel1.Text += i.ToString() + ". " + res.Item1[i-1] + "\n";
+						count += 2 + i.ToString().Length;
+						start = count;
+						linkLabel1.Links.Add(start, res.Item1[i-1].Length, toAccesableLink(res.Item1[i-1]));
+						count += res.Item1[i-1].Length + 1;
+						i++;
+					}
+				}
+			}
+
+			linkLabel1.LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkLabel1_Click);
+
 			//BFS.printArr(ans);
 			/*
 			while (true)
@@ -86,16 +122,27 @@ namespace GUI
 
 			}
 			*/
-
-			MessageBox.Show(path + "\n" + file + "\n" + occurences + "\n" + method + "\n" + picture + "\n" + ans[0]);
-
-
-
-
-
-
 		}
 
+		private String toAccesableLink(String str)
+		{
+			String res = "";
+			int idx = 0;
+			for (int i = str.Length-1; i >= 0; i--)
+			{
+				if (str[i] == '\\')
+				{
+					idx = i;
+					break;
+				}
+			}
+			for (int i = 0; i < idx; i++)
+			{
+				res += str[i];
+			}
+			return res;
+		}
+		
 		private void label3_Click(object sender, EventArgs e)
 		{
 
@@ -104,6 +151,17 @@ namespace GUI
 		private void pictureBox1_Click(object sender, EventArgs e)
 		{
 
+		}
+		private void linkLabel1_Click(object sender, System.Windows.Forms.LinkLabelLinkClickedEventArgs e)
+		{
+			// Determine which link was clicked within the LinkLabel.
+			this.linkLabel1.Links[linkLabel1.Links.IndexOf(e.Link)].Visited = true;
+
+			// Display the appropriate link based on the value of the 
+			// LinkData property of the Link object.
+			string target = e.Link.LinkData as string;
+ 
+			Process.Start("explorer.exe", target);
 		}
 	}
 }

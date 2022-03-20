@@ -1,25 +1,34 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
+using System.Windows.Forms;
+using System.Drawing;
 using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 namespace GUI
 {
     class DFS
     {
-        static List<string> ans = new List<string>();
-        static List<Tuple<string, string, int>> edge = new List<Tuple<string, string, int>>();
-        static int flag = 1;
+        static List<string> ans;
+        static List<Tuple<string, string, int>> edge;
+        static int flag;
 
-        public string[] DFSMain(string dirPath, string searchFile, bool isAll)
+        static Bitmap bitmap;
+
+        public Tuple<string[], Bitmap> DFSMain(string dirPath, string searchFile, bool isAll)
         {
             // list path of searchFile
             // ans = new List<string>();
             // list of edge <Node1,Node2,Color>
             // Color : 0 => black, 1 => red, 2 => blue
             // edge = new List<Tuple<string, string, int>>();
+
+            ans = new List<string>();
+            edge = new List<Tuple<string, string, int>>();
+            flag = 1;
 
             DFSRecursive(dirPath, searchFile, isAll);
 
@@ -36,9 +45,9 @@ namespace GUI
                 }
             }
 
-            printList(edge);
-            Folder_Crawling.SearchingGraph.buildGraph(edge);
-            return ans.ToArray();
+            // printList(edge);
+            bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, true);
+            return Tuple.Create(ans.ToArray(), bitmap);
         }
 
         public void DFSRecursive(string dirPath, string searchFile, bool isAll)
