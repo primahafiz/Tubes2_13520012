@@ -18,3 +18,23 @@ D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\new tubes\tubes2-stima\tubes2-stima\obj\
 D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\new tubes\tubes2-stima\tubes2-stima\obj\Debug\tubes2-stima.exe
 D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\new tubes\tubes2-stima\tubes2-stima\obj\Debug\tubes2-stima.pdb
 D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\new tubes\tubes2-stima\tubes2-stima\obj\Debug\GUI.Form1.resources
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\tubes2-stima.exe.config
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\tubes2-stima.exe
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\tubes2-stima.pdb
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\AutomaticGraphLayout.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\AutomaticGraphLayout.Drawing.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\Microsoft.Msagl.GraphViewerGdi.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\Microsoft.Msagl.WpfGraphControl.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\Microsoft.WindowsAPICodePack.Sensors.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\tubes2-stima.csproj.AssemblyReference.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\GUI.Form1.resources
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\tubes2_stima.Properties.Resources.resources
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\tubes2-stima.csproj.GenerateResource.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\tubes2-stima.csproj.CoreCompileInputs.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\tubes2-stima.csproj.CopyComplete
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\tubes2-stima.exe
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\tubes2-stima.pdb
