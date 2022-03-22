@@ -175,7 +175,7 @@ namespace GUI
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Location = new System.Drawing.Point(656, 539);
-            this.linkLabel1.MaximumSize = new System.Drawing.Size(600, 200);
+            this.linkLabel1.MaximumSize = new System.Drawing.Size(580, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(0, 20);
             this.linkLabel1.TabIndex = 14;
@@ -192,6 +192,7 @@ namespace GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(1275, 768);
             this.Controls.Add(this.label5);

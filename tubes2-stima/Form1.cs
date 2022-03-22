@@ -101,6 +101,7 @@ namespace GUI
 						count += res.Item1[i-1].Length + 1;
 						i++;
 					}
+					label4.Text = "File path : (" + res.Item1.Length.ToString() + ")";
 					label5.Text = "click to download";
 				}
 			}
