@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\near final 2\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj": {}
+    "C:\\Institut Teknologi Bandung\\Semester 4\\Tubes\\Stima 2\\new debug\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj": {}
   },
   "projects": {
-    "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\near final 2\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj": {
+    "C:\\Institut Teknologi Bandung\\Semester 4\\Tubes\\Stima 2\\new debug\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\near final 2\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj",
+        "projectUniqueName": "C:\\Institut Teknologi Bandung\\Semester 4\\Tubes\\Stima 2\\new debug\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj",
         "projectName": "tubes2-stima",
-        "projectPath": "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\near final 2\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj",
-        "packagesPath": "C:\\Users\\Primarissa\\.nuget\\packages\\",
-        "outputPath": "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\near final 2\\tubes2-stima\\tubes2-stima\\obj\\",
+        "projectPath": "C:\\Institut Teknologi Bandung\\Semester 4\\Tubes\\Stima 2\\new debug\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Institut Teknologi Bandung\\Semester 4\\Tubes\\Stima 2\\new debug\\tubes2-stima\\tubes2-stima\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Primarissa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +87,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

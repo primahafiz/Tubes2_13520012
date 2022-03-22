@@ -60,8 +60,18 @@ namespace GUI
 
             foreach (string path in pathsDir)
             {
+                edge.Add(Tuple.Create(dirPath, path, 0));
+            }
+            foreach (string path in pathsFile)
+            {
+                edge.Add(Tuple.Create(dirPath, path, 0));
+            }
+            
+            foreach (string path in pathsDir)
+            {
                 if (flag == 1)
                 {
+                    edge.Remove(Tuple.Create(dirPath, path, 0));
                     edge.Add(Tuple.Create(dirPath, path, 1));
                     DFSRecursive(path, searchFile, isAll, pictureBox);
                     bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, false);
@@ -72,6 +82,7 @@ namespace GUI
             {
                 if (flag == 1)
                 {
+                    edge.Remove(Tuple.Create(dirPath, path, 0));
                     edge.Add(Tuple.Create(dirPath, path, 1));
                     if (isFile(path))
                     {

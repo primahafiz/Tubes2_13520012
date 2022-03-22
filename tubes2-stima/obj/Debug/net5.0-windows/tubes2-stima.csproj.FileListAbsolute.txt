@@ -43,7 +43,6 @@ C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tu
 C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
 C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Sensors.dll
 C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
-C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.AssemblyReference.cache
 C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\GUI.Form1.resources
 C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.GenerateResource.cache
 C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.GeneratedMSBuildEditorConfig.editorconfig
@@ -85,3 +84,4 @@ D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\o
 D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\ref\tubes2-stima.dll
 D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.pdb
 D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.genruntimeconfig.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.AssemblyReference.cache
