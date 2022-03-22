@@ -42,6 +42,21 @@ namespace GUI
                     if (Path.GetFileName(head) == searchFile)
                     {
                         ans.Add(head);
+                        // mark edge with blue color if edge is a path to the searchFile
+                        foreach (string pathAns in ans)
+                        {
+                            for (int i = 0; i < edge.Count; i++)
+                            {
+                                // check if pathAns is inside edge[i].Item1 and edge[i].Item2
+                                if (isPrefixSubs(edge[i].Item1, pathAns) && isPrefixSubs(edge[i].Item2, pathAns))
+                                {
+                                    edge[i] = Tuple.Create(edge[i].Item1, edge[i].Item2, 2);
+                                }
+                            }
+                        }
+                        markBlue(pictureBox);
+                        bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, true);
+                        pictureBox.Image = bitmap;
                         if (!isAll)
                         {
                             break;
@@ -74,10 +89,22 @@ namespace GUI
                 // mark edge that has been visited with red color
                 for (; idx < edge.Count; idx++)
                 {
-                    if (edge[idx].Item1 != head) break;
+                    if (edge[idx].Item2 != head) break;
                     edge[idx] = Tuple.Create(edge[idx].Item1, edge[idx].Item2, 1);
                 }
+                markBlue(pictureBox);
             }
+            bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, true);
+            pictureBox.Image = bitmap;
+            return Tuple.Create(ans.ToArray(), bitmap);
+        }
+
+        public static bool isFile(string path)
+        {
+            return File.Exists(path);
+        }
+        public static void markBlue(PictureBox pictureBox)
+        {
             // mark edge with blue color if edge is a path to the searchFile
             foreach (string pathAns in ans)
             {
@@ -90,15 +117,8 @@ namespace GUI
                     }
                 }
             }
-            printList(edge);
             bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, true);
             pictureBox.Image = bitmap;
-            return Tuple.Create(ans.ToArray(), bitmap);
-        }
-
-        public static bool isFile(string path)
-        {
-            return File.Exists(path);
         }
         public static bool isPrefixSubs(string s1, string s2)
         {
@@ -135,11 +155,6 @@ namespace GUI
             {
                 Console.Write(Path.GetFileName(element.Item1) + " " + Path.GetFileName(element.Item2) + " " + element.Item3 + "\n");
             }
-        }
-
-        public static System.Windows.Forms.Form getForm()
-        {
-            return retForm;
         }
     }
 }

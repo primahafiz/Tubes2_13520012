@@ -22,8 +22,14 @@ namespace Folder_Crawling
                 if (edge.Item3 == 0)
                 {
                     graph.AddEdge(edge.Item1, edge.Item2).Attr.Color = Microsoft.Msagl.Drawing.Color.Black;
-                    graph.FindNode(edge.Item1).Attr.Color = Microsoft.Msagl.Drawing.Color.Black;
-                    graph.FindNode(edge.Item2).Attr.Color = Microsoft.Msagl.Drawing.Color.Black;
+                    if (graph.FindNode(edge.Item1).Attr.Color != Microsoft.Msagl.Drawing.Color.Blue && graph.FindNode(edge.Item1).Attr.Color != Microsoft.Msagl.Drawing.Color.Red)
+                    {
+                        graph.FindNode(edge.Item1).Attr.Color = Microsoft.Msagl.Drawing.Color.Black;
+                    }
+                    if (graph.FindNode(edge.Item2).Attr.Color != Microsoft.Msagl.Drawing.Color.Blue && graph.FindNode(edge.Item2).Attr.Color != Microsoft.Msagl.Drawing.Color.Red)
+                    {
+                        graph.FindNode(edge.Item2).Attr.Color = Microsoft.Msagl.Drawing.Color.Black;
+                    }
                 }
                 else if (edge.Item3 == 1)
                 {
@@ -40,19 +46,11 @@ namespace Folder_Crawling
                 else
                 {
                     graph.AddEdge(edge.Item1, edge.Item2).Attr.Color = Microsoft.Msagl.Drawing.Color.Blue;
-                    if (graph.FindNode(edge.Item1).Attr.Color != Microsoft.Msagl.Drawing.Color.Blue)
-                    {
-                        graph.FindNode(edge.Item1).Attr.Color = Microsoft.Msagl.Drawing.Color.Blue;
-                    }
-                    if (graph.FindNode(edge.Item2).Attr.Color != Microsoft.Msagl.Drawing.Color.Blue)
-                    {
-                        graph.FindNode(edge.Item2).Attr.Color = Microsoft.Msagl.Drawing.Color.Blue;
-                    }
+                    graph.FindNode(edge.Item1).Attr.Color = Microsoft.Msagl.Drawing.Color.Blue;
+                    graph.FindNode(edge.Item2).Attr.Color = Microsoft.Msagl.Drawing.Color.Blue;
 
                 }
                 graph.FindNode(edge.Item1).LabelText = Path.GetFileName(edge.Item1);
-  
-
                 graph.FindNode(edge.Item2).LabelText = Path.GetFileName(edge.Item2);
 
             }
@@ -92,8 +90,7 @@ namespace Folder_Crawling
                 }
                 Console.WriteLine(picture + "graph.jpg");
             }
-            int width = 500;
-            int height = 500;
+            int width = 620;
             bitmap = new Bitmap(width, (int)(graph.Height * (width / graph.Width)), PixelFormat.Format32bppPArgb);
             renderer.Render(bitmap);
 

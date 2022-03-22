@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "5XrGsTwchgSWCvVZ52Gsm3ZvrZmdLiBclJt06yptkj6cjI5sQ5IkHtlHtNy+RAa6WrVp1rZeMKXRIYllu/ioSA==",
+  "dgSpecHash": "95uJ35GHC/fzhsDJACBbGBr4hVB7Xu/O7JdQ9+YTzvsH5u6gSNpWQUsc5omq0agHrqcqcrh3kR8N0Q7vvowlxA==",
   "success": true,
-  "projectFilePath": "C:\\Institut Teknologi Bandung\\Semester 4\\Tubes\\Stima 2\\new debug\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj",
+  "projectFilePath": "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\near final 2\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Asus\\.nuget\\packages\\automaticgraphlayout\\1.1.12\\automaticgraphlayout.1.1.12.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\automaticgraphlayout.drawing\\1.1.12\\automaticgraphlayout.drawing.1.1.12.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\automaticgraphlayout.graphviewergdi\\1.1.12\\automaticgraphlayout.graphviewergdi.1.1.12.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\automaticgraphlayout.wpfgraphcontrol\\1.1.12\\automaticgraphlayout.wpfgraphcontrol.1.1.12.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.windowsapicodepack.core\\1.1.0\\microsoft.windowsapicodepack.core.1.1.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.windowsapicodepack.shell\\1.1.0\\microsoft.windowsapicodepack.shell.1.1.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\windowsapicodepack\\1.1.2\\windowsapicodepack.1.1.2.nupkg.sha512"
+    "C:\\Users\\Primarissa\\.nuget\\packages\\automaticgraphlayout\\1.1.12\\automaticgraphlayout.1.1.12.nupkg.sha512",
+    "C:\\Users\\Primarissa\\.nuget\\packages\\automaticgraphlayout.drawing\\1.1.12\\automaticgraphlayout.drawing.1.1.12.nupkg.sha512",
+    "C:\\Users\\Primarissa\\.nuget\\packages\\automaticgraphlayout.graphviewergdi\\1.1.12\\automaticgraphlayout.graphviewergdi.1.1.12.nupkg.sha512",
+    "C:\\Users\\Primarissa\\.nuget\\packages\\automaticgraphlayout.wpfgraphcontrol\\1.1.12\\automaticgraphlayout.wpfgraphcontrol.1.1.12.nupkg.sha512",
+    "C:\\Users\\Primarissa\\.nuget\\packages\\microsoft.windowsapicodepack.core\\1.1.0\\microsoft.windowsapicodepack.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\Primarissa\\.nuget\\packages\\microsoft.windowsapicodepack.shell\\1.1.0\\microsoft.windowsapicodepack.shell.1.1.0.nupkg.sha512",
+    "C:\\Users\\Primarissa\\.nuget\\packages\\windowsapicodepack\\1.1.2\\windowsapicodepack.1.1.2.nupkg.sha512"
   ],
   "logs": [
     {
