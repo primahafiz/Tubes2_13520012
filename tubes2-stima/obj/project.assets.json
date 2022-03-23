@@ -198,19 +198,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\Aji\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Institut Teknologi Bandung\\Semester 4\\Tubes\\Stima 2\\new debug\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj",
+      "projectUniqueName": "C:\\Users\\Aji\\Documents\\GitHub\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj",
       "projectName": "tubes2-stima",
-      "projectPath": "C:\\Institut Teknologi Bandung\\Semester 4\\Tubes\\Stima 2\\new debug\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Institut Teknologi Bandung\\Semester 4\\Tubes\\Stima 2\\new debug\\tubes2-stima\\tubes2-stima\\obj\\",
+      "projectPath": "C:\\Users\\Aji\\Documents\\GitHub\\tubes2-stima\\tubes2-stima\\tubes2-stima.csproj",
+      "packagesPath": "C:\\Users\\Aji\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aji\\Documents\\GitHub\\tubes2-stima\\tubes2-stima\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aji\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -283,7 +283,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   },

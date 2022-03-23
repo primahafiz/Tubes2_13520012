@@ -90,8 +90,9 @@ namespace Folder_Crawling
                 }
                 Console.WriteLine(picture + "graph.jpg");
             }
-            int width = 620;
-            bitmap = new Bitmap(width, (int)(graph.Height * (width / graph.Width)), PixelFormat.Format32bppPArgb);
+            int width = 500;
+            int height = 360;
+            bitmap = new Bitmap(width, height, PixelFormat.Format32bppPArgb);
             renderer.Render(bitmap);
 
             return bitmap;

@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
@@ -44,7 +45,14 @@ namespace GUI
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
+			trackBar1.Minimum = 1;
+			trackBar1.Maximum = 10;
+			trackBar1.SmallChange = 1;
+			trackBar1.LargeChange = 1;
+			trackBar1.UseWaitCursor = false;
 
+			panel1.AutoScroll = true;
+			this.DoubleBuffered = true;
 		}
 
 		private async void button2_Click(object sender, EventArgs e)
@@ -102,7 +110,8 @@ namespace GUI
 						i++;
 					}
 					label4.Text = "File path : (" + res.Item1.Length.ToString() + ")";
-					label5.Text = "click to download";
+					label5.Text = "click picture to download";
+					picture = picture + @"\graph.jpg";
 				}
 			}
 		}
@@ -179,5 +188,93 @@ namespace GUI
  
 			Process.Start("explorer.exe", target);
 		}
-	}
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+		Image ZoomPicture(Image img, Size size)
+        {
+			Bitmap bm = new Bitmap(img, Convert.ToInt32(img.Width * size.Width), Convert.ToInt32(img.Height * size.Height));
+			Graphics gpu = Graphics.FromImage(bm);
+			gpu.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+			return bm;
+        }
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+			if (trackBar1.Value != 0)
+            {
+				String picture = Directory.GetCurrentDirectory();
+				while (Path.GetFileName(picture) != "tubes2-stima")
+				{
+					picture = Directory.GetParent(picture).FullName;
+				}
+
+				picture = picture + @"\pictures\graph.jpg";
+
+				Image img = Image.FromFile(picture);
+				pictureBox1.Image = null;
+				pictureBox1.Image = ZoomPicture(img, new Size(trackBar1.Value, trackBar1.Value));
+				pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            }
+        }
+		public Bitmap ConvertToBitmap(string fileName)
+		{
+			Bitmap bitmap;
+			using (Stream bmpStream = System.IO.File.Open(fileName, System.IO.FileMode.Open))
+			{
+				Image image = Image.FromStream(bmpStream);
+
+				bitmap = new Bitmap(image);
+
+			}
+			return bitmap;
+		}
+
+		private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
