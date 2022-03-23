@@ -45,14 +45,7 @@ namespace GUI
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			trackBar1.Minimum = 1;
-			trackBar1.Maximum = 10;
-			trackBar1.SmallChange = 1;
-			trackBar1.LargeChange = 1;
-			trackBar1.UseWaitCursor = false;
-
 			panel1.AutoScroll = true;
-			this.DoubleBuffered = true;
 		}
 
 		private async void button2_Click(object sender, EventArgs e)
@@ -65,6 +58,11 @@ namespace GUI
 			Boolean isChecked2 = radioButton2.Checked;
 			String picture = Directory.GetCurrentDirectory();
 			Tuple<string[], Bitmap> res;
+
+			button3.Visible = false;
+			label4.Text = "File path :";
+			label5.Text = "";
+			label6.Text = ""; 
 
 			while (Path.GetFileName(picture) != "tubes2-stima")
 			{
@@ -88,6 +86,7 @@ namespace GUI
 					MessageBox.Show("Fill the required form !!", "Error");
 				} else {
 					click = true;
+					DateTime startTime = DateTime.Now;
 					if (method == "BFS") {
 						linkLabel1.Text = "";
 						BFS bfs = new BFS();
@@ -96,7 +95,8 @@ namespace GUI
 						linkLabel1.Text = "";
 						DFS dfs = new DFS();
 						res = dfs.DFSMain(path, file, occurences, pictureBox1);
-					} 
+					}
+					DateTime stopTime = DateTime.Now;
 					
 					int i = 1;
 					int count = 0;
@@ -111,7 +111,18 @@ namespace GUI
 					}
 					label4.Text = "File path : (" + res.Item1.Length.ToString() + ")";
 					label5.Text = "click picture to download";
-					picture = picture + @"\graph.jpg";
+					double time = stopTime.Subtract(startTime).TotalMilliseconds;
+					if (time < 1000)
+                    {
+						label6.Text = "Estimated time : " + stopTime.Subtract(startTime).TotalMilliseconds + " ms";
+                    }
+					else
+                    {
+						label6.Text = "Estimated time : " + stopTime.Subtract(startTime).TotalSeconds + " s";
+
+					}
+
+					button3.Visible = true;
 				}
 			}
 		}
@@ -206,24 +217,7 @@ namespace GUI
 			gpu.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
 			return bm;
         }
-        private void trackBar1_Scroll(object sender, EventArgs e)
-        {
-			if (trackBar1.Value != 0)
-            {
-				String picture = Directory.GetCurrentDirectory();
-				while (Path.GetFileName(picture) != "tubes2-stima")
-				{
-					picture = Directory.GetParent(picture).FullName;
-				}
 
-				picture = picture + @"\pictures\graph.jpg";
-
-				Image img = Image.FromFile(picture);
-				pictureBox1.Image = null;
-				pictureBox1.Image = ZoomPicture(img, new Size(trackBar1.Value, trackBar1.Value));
-				pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
-            }
-        }
 		public Bitmap ConvertToBitmap(string fileName)
 		{
 			Bitmap bitmap;
@@ -276,5 +270,31 @@ namespace GUI
         {
 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			String picture = Directory.GetCurrentDirectory();
+			while (Path.GetFileName(picture) != "tubes2-stima")
+			{
+				picture = Directory.GetParent(picture).FullName;
+			}
+
+			picture = picture + @"\pictures\graph.jpg";
+
+			Image img = Image.FromFile(picture);
+			pictureBox1.Image = null;
+			pictureBox1.Image = ZoomPicture(img, new Size(1, 1));
+			pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+		}
     }
 }
