@@ -62,14 +62,25 @@ namespace GUI
 			button3.Visible = false;
 			label4.Text = "File path :";
 			label5.Text = "";
-			label6.Text = ""; 
+			label6.Text = "";
 
-			while (Path.GetFileName(picture) != "tubes2-stima")
+			while (true)
 			{
+				string[] pathsDir = Directory.GetDirectories(picture);
+				foreach (String pathDir in pathsDir)
+				{
+					if (Path.GetFileName(pathDir) == "pictures")
+					{
+						picture = pathDir;
+						break;
+					}
+				}
+				if (Path.GetFileName(picture) == "pictures")
+				{
+					break;
+				}
 				picture = Directory.GetParent(picture).FullName;
 			}
-
-			picture = picture + @"\pictures\";
 
 			if (isChecked1)
 				method = radioButton1.Text;
@@ -154,13 +165,25 @@ namespace GUI
 		private void pictureBox1_Click(object sender, EventArgs e)
 		{
 			String picture = Directory.GetCurrentDirectory();
-			while (Path.GetFileName(picture) != "tubes2-stima")
+
+			while (true)
 			{
+				string[] pathsDir = Directory.GetDirectories(picture);
+				foreach (String pathDir in pathsDir)
+				{
+					if (Path.GetFileName(pathDir) == "pictures")
+					{
+						picture = pathDir;
+						break;
+					}
+				}
+				if (Path.GetFileName(picture) == "pictures")
+				{
+					break;
+				}
 				picture = Directory.GetParent(picture).FullName;
 			}
-
-			picture = picture + @"\pictures\";
-			Bitmap bitmap = new Bitmap(picture + "graph.jpg");
+			Bitmap bitmap = new Bitmap(picture + "\\graph.jpg");
 			if (click == false) {
 				MessageBox.Show("Fill the required form !!", "Error");
 			} else {
@@ -168,7 +191,7 @@ namespace GUI
 				dialog.IsFolderPicker = true;
 				if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
 				{
-					File.WriteAllText("graph.jpg", "");
+					File.WriteAllText(dialog.FileName+"\\graph.jpg", "");
 					try
 					{
 						File.Delete(dialog.FileName + "\\graph.jpg");
@@ -284,12 +307,27 @@ namespace GUI
 		private void button3_Click(object sender, EventArgs e)
 		{
 			String picture = Directory.GetCurrentDirectory();
-			while (Path.GetFileName(picture) != "tubes2-stima")
+
+			while (true)
 			{
+				string[] pathsDir = Directory.GetDirectories(picture);
+				foreach (String pathDir in pathsDir)
+				{
+					if (Path.GetFileName(pathDir) == "pictures")
+					{
+						picture = pathDir;
+						break;
+					}
+				}
+				if (Path.GetFileName(picture) == "pictures")
+				{
+					break;
+				}
 				picture = Directory.GetParent(picture).FullName;
 			}
 
-			picture = picture + @"\pictures\graph.jpg";
+			picture = picture + @"\graph.jpg";
+			Console.WriteLine(picture);
 
 			Image img = Image.FromFile(picture);
 			pictureBox1.Image = null;

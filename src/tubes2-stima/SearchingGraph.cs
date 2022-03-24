@@ -64,17 +64,28 @@ namespace Folder_Crawling
 
                 String picture = Directory.GetCurrentDirectory();
 
-                while (Path.GetFileName(picture) != "tubes2-stima")
+                while (true)
                 {
+                    string[] pathsDir = Directory.GetDirectories(picture);
+                    foreach (String pathDir in pathsDir)
+                    {
+                        if (Path.GetFileName(pathDir) == "pictures")
+                        {
+                            picture = pathDir;
+                            break;
+                        }
+                    }
+                    if (Path.GetFileName(picture) == "pictures")
+                    {
+                        break;
+                    }
                     picture = Directory.GetParent(picture).FullName;
                 }
 
-                picture = picture + @"\pictures\";
-
-                File.WriteAllText(picture + "graph.jpg", "");
+                File.WriteAllText(picture + "\\graph.jpg", "");
                 try
                 {
-                    File.Delete(picture + "graph.jpg");
+                    File.Delete(picture + "\\graph.jpg");
                 }
                 catch
                 {
@@ -82,13 +93,12 @@ namespace Folder_Crawling
                 }
                 try
                 {
-                    bitmap.Save(picture + "graph.jpg");
+                    bitmap.Save(picture + "\\graph.jpg");
                 }
                 catch
                 {
 
                 }
-                Console.WriteLine(picture + "graph.jpg");
             }
             int width = 500;
             int height = 360;

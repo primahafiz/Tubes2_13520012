@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aji\\Documents\\GitHub\\tubes2-stima\\src\\tubes2-stima\\tubes2-stima.csproj": {}
+    "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\final 2\\kkx\\src\\tubes2-stima\\tubes2-stima.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aji\\Documents\\GitHub\\tubes2-stima\\src\\tubes2-stima\\tubes2-stima.csproj": {
+    "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\final 2\\kkx\\src\\tubes2-stima\\tubes2-stima.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aji\\Documents\\GitHub\\tubes2-stima\\src\\tubes2-stima\\tubes2-stima.csproj",
+        "projectUniqueName": "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\final 2\\kkx\\src\\tubes2-stima\\tubes2-stima.csproj",
         "projectName": "tubes2-stima",
-        "projectPath": "C:\\Users\\Aji\\Documents\\GitHub\\tubes2-stima\\src\\tubes2-stima\\tubes2-stima.csproj",
-        "packagesPath": "C:\\Users\\Aji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aji\\Documents\\GitHub\\tubes2-stima\\src\\tubes2-stima\\obj\\",
+        "projectPath": "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\final 2\\kkx\\src\\tubes2-stima\\tubes2-stima.csproj",
+        "packagesPath": "C:\\Users\\Primarissa\\.nuget\\packages\\",
+        "outputPath": "D:\\Prima\\ITB\\IF sem 4\\Stima\\All Tubes 2\\final 2\\kkx\\src\\tubes2-stima\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Primarissa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
