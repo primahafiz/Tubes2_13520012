@@ -42,18 +42,6 @@ namespace GUI
                     if (Path.GetFileName(head) == searchFile)
                     {
                         ans.Add(head);
-                        // mark edge with blue color if edge is a path to the searchFile
-                        foreach (string pathAns in ans)
-                        {
-                            for (int i = 0; i < edge.Count; i++)
-                            {
-                                // check if pathAns is inside edge[i].Item1 and edge[i].Item2
-                                if (isPrefixSubs(edge[i].Item1, pathAns) && isPrefixSubs(edge[i].Item2, pathAns))
-                                {
-                                    edge[i] = Tuple.Create(edge[i].Item1, edge[i].Item2, 2);
-                                }
-                            }
-                        }
                         markBlue(pictureBox);
                         bitmap = Folder_Crawling.SearchingGraph.buildGraph(edge, true);
                         pictureBox.Image = bitmap;
