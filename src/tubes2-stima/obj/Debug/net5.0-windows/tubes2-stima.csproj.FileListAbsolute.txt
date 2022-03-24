@@ -1,0 +1,147 @@
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.AssemblyReference.cache
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\GUI.Form1.resources
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.GenerateResource.cache
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfoInputs.cache
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfo.cs
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CoreCompileInputs.cache
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.exe
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.deps.json
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.json
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.dev.json
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\ref\tubes2-stima.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.pdb
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.Drawing.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.WpfGraphControl.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Sensors.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CopyComplete
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\ref\tubes2-stima.dll
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.pdb
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.genruntimeconfig.cache
+C:\Users\Aji\source\repos\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll.config
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.exe
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll.config
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.deps.json
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.json
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.dev.json
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.pdb
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.Drawing.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.WpfGraphControl.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Sensors.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\GUI.Form1.resources
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.GenerateResource.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.GeneratedMSBuildEditorConfig.editorconfig
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfoInputs.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfo.cs
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CoreCompileInputs.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CopyComplete
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\refint\tubes2-stima.dll
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.pdb
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.genruntimeconfig.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\ref\tubes2-stima.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.exe
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll.config
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.deps.json
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.json
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.dev.json
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\ref\tubes2-stima.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.pdb
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.Drawing.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.WpfGraphControl.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Sensors.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.AssemblyReference.cache
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\GUI.Form1.resources
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.GenerateResource.cache
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfoInputs.cache
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfo.cs
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CoreCompileInputs.cache
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CopyComplete
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\ref\tubes2-stima.dll
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.pdb
+D:\Prima\ITB\IF sem 4\Stima\All Tubes 2\near final 2\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.genruntimeconfig.cache
+C:\Institut Teknologi Bandung\Semester 4\Tubes\Stima 2\new debug\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.AssemblyReference.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.exe
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll.config
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.deps.json
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.json
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.dev.json
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\ref\tubes2-stima.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.pdb
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.Drawing.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.WpfGraphControl.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Sensors.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.AssemblyReference.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\GUI.Form1.resources
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.GenerateResource.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfoInputs.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfo.cs
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CoreCompileInputs.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CopyComplete
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\ref\tubes2-stima.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.pdb
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.genruntimeconfig.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\tubes2-stima\obj\Debug\net5.0-windows\tubes2_stima.Properties.Resources.resources
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.exe
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll.config
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.deps.json
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.json
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.runtimeconfig.dev.json
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\ref\tubes2-stima.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\tubes2-stima.pdb
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\AutomaticGraphLayout.Drawing.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.Msagl.WpfGraphControl.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Sensors.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.AssemblyReference.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\GUI.Form1.resources
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2_stima.Properties.Resources.resources
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.GenerateResource.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfoInputs.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.AssemblyInfo.cs
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CoreCompileInputs.cache
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.csproj.CopyComplete
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\ref\tubes2-stima.dll
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.pdb
+C:\Users\Aji\Documents\GitHub\tubes2-stima\src\tubes2-stima\obj\Debug\net5.0-windows\tubes2-stima.genruntimeconfig.cache
