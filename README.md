@@ -45,7 +45,7 @@ Sebuah aplikasi GUI sederhana yang dapat memodelkan fitur dari file explorer pad
 
 ## Menjalankan Program
 
-1. Melakukan clone pada repository ini (https://github.com/primahafiz/tubes2-stima.git)
+1. Melakukan clone pada repository ini (https:#github.com/primahafiz/Tubes2_13520012)
 2. Masuk pada directory awal repository ini :
 ```
 tubes2-stima/
