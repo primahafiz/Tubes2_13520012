@@ -10,6 +10,10 @@
 
 Sebuah aplikasi GUI sederhana yang dapat memodelkan fitur dari file explorer pada sistem operasi, atau disebut dengan Folder Crawling. Dengan memanfaatkan algoritma Breadth First Search (BFS) dan Depth First Search (DFS), Aplikasi ini dapat menelusuri folder-folder yang ada pada direktori untuk mendapatkan direktori yang User inginkan. Program juga dapat memvisualisasikan hasil dari pencarian folder tersebut dalam bentuk pohon.
 
+## Requirement
+
+Menggunakan OS Windows
+
 ## Modularity Program
 
 ```
